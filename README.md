@@ -17,12 +17,15 @@ pytest -q                              # testy
 ## Dane
 
 ```bash
-mkdir -p data/raw/{szlwiki,fineweb2,plwiki,wachtyrz}
+mkdir -p data/raw/{szlwiki,fineweb2,plwiki,plwiki_hf,wachtyrz}
 curl -L -o data/raw/szlwiki/szlwiki-20261101-pages-articles.xml.bz2 https://dumps.wikimedia.org/szlwiki/latest/szlwiki-latest-pages-articles.xml.bz2
 python -m wikiextractor.WikiExtractor data/raw/szlwiki/szlwiki-20261101-pages-articles.xml.bz2 --json -o data/raw/szlwiki/extracted -q
 curl -L -o data/raw/fineweb2/train.parquet https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/resolve/main/data/szl_Latn/train/000_00000.parquet
 curl -L -o data/raw/fineweb2/test.parquet  https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/resolve/main/data/szl_Latn/test/000_00000.parquet
-python scripts/pobierz_plwiki_slask.py data/raw/plwiki/plwiki_slask.jsonl   # ~1 zapytanie/s, wznawialne
+python scripts/pobierz_plwiki_slask.py data/raw/plwiki/plwiki_slask.jsonl   # lista tytułów z kategorii (+ tekst przez API, wolno)
+# szybciej: tekst ze zrzutu HF (1,8 GB, wersja z 1.11.2023)
+for i in 0 1 2 3 4 5; do curl -L -o data/raw/plwiki_hf/train-0000$i.parquet https://huggingface.co/datasets/wikimedia/wikipedia/resolve/main/20231101.pl/train-0000$i-of-00006.parquet; done
+python scripts/plwiki_z_hf.py data/raw/plwiki_hf data/raw/plwiki/plwiki_slask.tytuly.txt data/raw/plwiki/plwiki_slask.jsonl
 # data/raw/wachtyrz/wachtyrz.txt — artykuły z wachtyrz.eu (publiczne API WordPressa), jeden akapit na linię
 ```
 

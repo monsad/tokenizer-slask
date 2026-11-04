@@ -1,0 +1,87 @@
+{
+  "GPT-4 (cl100k)": {
+    "śląski": {
+      "tokeny": 989544,
+      "slowa": 352909,
+      "bajty": 2426429,
+      "fertility": 2.804,
+      "bajty_na_token": 2.4521
+    },
+    "polski o Śląsku": {
+      "tokeny": 1177415,
+      "slowa": 428005,
+      "bajty": 3279345,
+      "fertility": 2.7509,
+      "bajty_na_token": 2.7852
+    },
+    "narzut_slaski_vs_polski": 1.019
+  },
+  "GPT-4o (o200k)": {
+    "śląski": {
+      "tokeny": 898919,
+      "slowa": 352909,
+      "bajty": 2426429,
+      "fertility": 2.5472,
+      "bajty_na_token": 2.6993
+    },
+    "polski o Śląsku": {
+      "tokeny": 1019342,
+      "slowa": 428005,
+      "bajty": 3279345,
+      "fertility": 2.3816,
+      "bajty_na_token": 3.2171
+    },
+    "narzut_slaski_vs_polski": 1.07
+  },
+  "Bielik v3 (APT4 32k)": {
+    "śląski": {
+      "tokeny": 967815,
+      "slowa": 352909,
+      "bajty": 2426429,
+      "fertility": 2.7424,
+      "bajty_na_token": 2.5071
+    },
+    "polski o Śląsku": {
+      "tokeny": 842880,
+      "slowa": 428005,
+      "bajty": 3279345,
+      "fertility": 1.9693,
+      "bajty_na_token": 3.8906
+    },
+    "narzut_slaski_vs_polski": 1.393
+  },
+  "nasz 16k": {
+    "śląski": {
+      "tokeny": 662954,
+      "slowa": 352909,
+      "bajty": 2426429,
+      "fertility": 1.8785,
+      "bajty_na_token": 3.66
+    },
+    "polski o Śląsku": {
+      "tokeny": 788337,
+      "slowa": 428005,
+      "bajty": 3279345,
+      "fertility": 1.8419,
+      "bajty_na_token": 4.1598
+    },
+    "narzut_slaski_vs_polski": 1.02
+  },
+  "nasz 32k": {
+    "śląski": {
+      "tokeny": 598464,
+      "slowa": 352909,
+      "bajty": 2426429,
+      "fertility": 1.6958,
+      "bajty_na_token": 4.0544
+    },
+    "polski o Śląsku": {
+      "tokeny": 695810,
+      "slowa": 428005,
+      "bajty": 3279345,
+      "fertility": 1.6257,
+      "bajty_na_token": 4.713
+    },
+    "narzut_slaski_vs_polski": 1.043
+  }
+}

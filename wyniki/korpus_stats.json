@@ -1,0 +1,65 @@
+{
+  "szlwiki": {
+    "krotkie_hasla": 56784,
+    "zostawione_dok": 18982
+  },
+  "wachtyrz": {
+    "artykuly": 5125,
+    "dok_szl": 2448,
+    "dok_pl": 3676
+  },
+  "fineweb_szl": {
+    "odrzucone_nie_slaski": 747,
+    "odrzucone_kopie_wikipedii": 853,
+    "zostawione_dok": 4173
+  },
+  "plwiki_slask": {
+    "zostawione_dok": 2535
+  },
+  "przed_dedup_mb": 64.27,
+  "po_dedup_mb": 58.09,
+  "train": {
+    "fineweb_szl": {
+      "dok": 3584,
+      "mb": 10.76
+    },
+    "plwiki_slask": {
+      "dok": 2281,
+      "mb": 9.86
+    },
+    "szlwiki": {
+      "dok": 17083,
+      "mb": 5.93
+    },
+    "wachtyrz_pl": {
+      "dok": 3299,
+      "mb": 19.85
+    },
+    "wachtyrz_szl": {
+      "dok": 2188,
+      "mb": 5.98
+    }
+  },
+  "test": {
+    "fineweb_szl": {
+      "dok": 398,
+      "mb": 1.02
+    },
+    "plwiki_slask": {
+      "dok": 254,
+      "mb": 1.14
+    },
+    "szlwiki": {
+      "dok": 1898,
+      "mb": 0.74
+    },
+    "wachtyrz_pl": {
+      "dok": 366,
+      "mb": 2.14
+    },
+    "wachtyrz_szl": {
+      "dok": 243,
+      "mb": 0.67
+    }
+  }
+}

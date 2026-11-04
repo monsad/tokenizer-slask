@@ -1,0 +1,106 @@
+{
+  "znaki": {
+    "ō": {
+      "samodzielny": 28,
+      "pierwszy_zawierajacy": 28,
+      "wystapienia_w_treningu": 214552,
+      "grupa": "szl"
+    },
+    "ŏ": {
+      "samodzielny": 77,
+      "pierwszy_zawierajacy": 77,
+      "wystapienia_w_treningu": 85905,
+      "grupa": "szl"
+    },
+    "ô": {
+      "samodzielny": 89,
+      "pierwszy_zawierajacy": 89,
+      "wystapienia_w_treningu": 71859,
+      "grupa": "szl"
+    },
+    "ą": {
+      "samodzielny": 19,
+      "pierwszy_zawierajacy": 19,
+      "wystapienia_w_treningu": 242801,
+      "grupa": "pl"
+    },
+    "ę": {
+      "samodzielny": 27,
+      "pierwszy_zawierajacy": 27,
+      "wystapienia_w_treningu": 218029,
+      "grupa": "pl"
+    },
+    "ż": {
+      "samodzielny": 16,
+      "pierwszy_zawierajacy": 16,
+      "wystapienia_w_treningu": 264419,
+      "grupa": "pl"
+    },
+    "ł": {
+      "samodzielny": 1,
+      "pierwszy_zawierajacy": 1,
+      "wystapienia_w_treningu": 622468,
+      "grupa": "pl"
+    },
+    "ś": {
+      "samodzielny": 24,
+      "pierwszy_zawierajacy": 24,
+      "wystapienia_w_treningu": 228324,
+      "grupa": "pl"
+    },
+    "ć": {
+      "samodzielny": 45,
+      "pierwszy_zawierajacy": 45,
+      "wystapienia_w_treningu": 139785,
+      "grupa": "pl"
+    },
+    "ń": {
+      "samodzielny": 73,
+      "pierwszy_zawierajacy": 73,
+      "wystapienia_w_treningu": 90449,
+      "grupa": "pl"
+    },
+    "ó": {
+      "samodzielny": 15,
+      "pierwszy_zawierajacy": 15,
+      "wystapienia_w_treningu": 267012,
+      "grupa": "pl"
+    },
+    "ź": {
+      "samodzielny": 190,
+      "pierwszy_zawierajacy": 190,
+      "wystapienia_w_treningu": 36415,
+      "grupa": "pl"
+    }
+  },
+  "koncowki": {
+    "ōm": {
+      "rank": 98,
+      "grupa": "szl"
+    },
+    "ymu": {
+      "rank": 2204,
+      "grupa": "szl"
+    },
+    "ŏ": {
+      "rank": 77,
+      "grupa": "szl"
+    },
+    "ōw": {
+      "rank": 234,
+      "grupa": "szl"
+    },
+    "ą": {
+      "rank": 19,
+      "grupa": "pl"
+    },
+    "emu": {
+      "rank": 4092,
+      "grupa": "pl"
+    },
+    "ów": {
+      "rank": 69,
+      "grupa": "pl"
+    }
+  }
+}

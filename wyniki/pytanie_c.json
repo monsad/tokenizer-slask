@@ -1,0 +1,80 @@
+{
+  "8k tylko szlwiki": {
+    "szlwiki": {
+      "tokeny": 195641,
+      "slowa": 98442,
+      "bajty": 740332,
+      "fertility": 1.9874,
+      "bajty_na_token": 3.7841
+    },
+    "wachtyrz_szl": {
+      "tokeny": 227434,
+      "slowa": 97977,
+      "bajty": 667358,
+      "fertility": 2.3213,
+      "bajty_na_token": 2.9343
+    },
+    "fineweb_szl": {
+      "tokeny": 373179,
+      "slowa": 156490,
+      "bajty": 1018739,
+      "fertility": 2.3847,
+      "bajty_na_token": 2.7299
+    },
+    "plwiki_slask": {
+      "tokeny": 424173,
+      "slowa": 146127,
+      "bajty": 1141736,
+      "fertility": 2.9028,
+      "bajty_na_token": 2.6917
+    },
+    "wachtyrz_pl": {
+      "tokeny": 810731,
+      "slowa": 281878,
+      "bajty": 2137609,
+      "fertility": 2.8762,
+      "bajty_na_token": 2.6366
+    }
+  },
+  "8k całość": {
+    "szlwiki": {
+      "tokeny": 226851,
+      "slowa": 98442,
+      "bajty": 740332,
+      "fertility": 2.3044,
+      "bajty_na_token": 3.2635
+    },
+    "wachtyrz_szl": {
+      "tokeny": 198824,
+      "slowa": 97977,
+      "bajty": 667358,
+      "fertility": 2.0293,
+      "bajty_na_token": 3.3565
+    },
+    "fineweb_szl": {
+      "tokeny": 316558,
+      "slowa": 156490,
+      "bajty": 1018739,
+      "fertility": 2.0229,
+      "bajty_na_token": 3.2182
+    },
+    "plwiki_slask": {
+      "tokeny": 304751,
+      "slowa": 146127,
+      "bajty": 1141736,
+      "fertility": 2.0855,
+      "bajty_na_token": 3.7465
+    },
+    "wachtyrz_pl": {
+      "tokeny": 598973,
+      "slowa": 281878,
+      "bajty": 2137609,
+      "fertility": 2.1249,
+      "bajty_na_token": 3.5688
+    }
+  },
+  "spadek_poza_wikipedia_proc": {
+    "wachtyrz_szl": 16.8,
+    "fineweb_szl": 20.0
+  }
+}

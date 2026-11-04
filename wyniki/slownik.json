@@ -1,0 +1,332 @@
+{
+  "1000": {
+    "calosc": {
+      "tokeny": 2533521,
+      "slowa": 780914,
+      "bajty": 5705774,
+      "fertility": 3.2443,
+      "bajty_na_token": 2.2521
+    },
+    "szlwiki": {
+      "tokeny": 340478,
+      "slowa": 98442,
+      "bajty": 740332,
+      "fertility": 3.4587,
+      "bajty_na_token": 2.1744
+    },
+    "wachtyrz_szl": {
+      "tokeny": 293885,
+      "slowa": 97977,
+      "bajty": 667358,
+      "fertility": 2.9995,
+      "bajty_na_token": 2.2708
+    },
+    "fineweb_szl": {
+      "tokeny": 457174,
+      "slowa": 156490,
+      "bajty": 1018739,
+      "fertility": 2.9214,
+      "bajty_na_token": 2.2283
+    },
+    "plwiki_slask": {
+      "tokeny": 503251,
+      "slowa": 146127,
+      "bajty": 1141736,
+      "fertility": 3.4439,
+      "bajty_na_token": 2.2687
+    },
+    "wachtyrz_pl": {
+      "tokeny": 938733,
+      "slowa": 281878,
+      "bajty": 2137609,
+      "fertility": 3.3303,
+      "bajty_na_token": 2.2771
+    },
+    "tokeny_uzyte_w_tescie": 940,
+    "tokeny_uzyte_mniej_niz_10_razy": 78,
+    "dlugosci_tokenow_bajty": {
+      "2": 247,
+      "3": 264,
+      "4": 137,
+      "5": 55,
+      "6": 18,
+      "9": 4,
+      "7": 12,
+      "8": 4,
+      "10": 1,
+      "12": 2
+    }
+  },
+  "4000": {
+    "calosc": {
+      "tokeny": 1880325,
+      "slowa": 780914,
+      "bajty": 5705774,
+      "fertility": 2.4079,
+      "bajty_na_token": 3.0345
+    },
+    "szlwiki": {
+      "tokeny": 255916,
+      "slowa": 98442,
+      "bajty": 740332,
+      "fertility": 2.5997,
+      "bajty_na_token": 2.8929
+    },
+    "wachtyrz_szl": {
+      "tokeny": 224692,
+      "slowa": 97977,
+      "bajty": 667358,
+      "fertility": 2.2933,
+      "bajty_na_token": 2.9701
+    },
+    "fineweb_szl": {
+      "tokeny": 354767,
+      "slowa": 156490,
+      "bajty": 1018739,
+      "fertility": 2.267,
+      "bajty_na_token": 2.8716
+    },
+    "plwiki_slask": {
+      "tokeny": 356802,
+      "slowa": 146127,
+      "bajty": 1141736,
+      "fertility": 2.4417,
+      "bajty_na_token": 3.1999
+    },
+    "wachtyrz_pl": {
+      "tokeny": 688148,
+      "slowa": 281878,
+      "bajty": 2137609,
+      "fertility": 2.4413,
+      "bajty_na_token": 3.1063
+    },
+    "tokeny_uzyte_w_tescie": 3932,
+    "tokeny_uzyte_mniej_niz_10_razy": 102,
+    "dlugosci_tokenow_bajty": {
+      "2": 474,
+      "3": 1008,
+      "4": 909,
+      "5": 559,
+      "6": 334,
+      "9": 66,
+      "7": 207,
+      "8": 109,
+      "10": 39,
+      "12": 10,
+      "11": 20,
+      "14": 4,
+      "13": 4,
+      "15": 1
+    }
+  },
+  "8000": {
+    "calosc": {
+      "tokeny": 1645957,
+      "slowa": 780914,
+      "bajty": 5705774,
+      "fertility": 2.1077,
+      "bajty_na_token": 3.4665
+    },
+    "szlwiki": {
+      "tokeny": 226851,
+      "slowa": 98442,
+      "bajty": 740332,
+      "fertility": 2.3044,
+      "bajty_na_token": 3.2635
+    },
+    "wachtyrz_szl": {
+      "tokeny": 198824,
+      "slowa": 97977,
+      "bajty": 667358,
+      "fertility": 2.0293,
+      "bajty_na_token": 3.3565
+    },
+    "fineweb_szl": {
+      "tokeny": 316558,
+      "slowa": 156490,
+      "bajty": 1018739,
+      "fertility": 2.0229,
+      "bajty_na_token": 3.2182
+    },
+    "plwiki_slask": {
+      "tokeny": 304751,
+      "slowa": 146127,
+      "bajty": 1141736,
+      "fertility": 2.0855,
+      "bajty_na_token": 3.7465
+    },
+    "wachtyrz_pl": {
+      "tokeny": 598973,
+      "slowa": 281878,
+      "bajty": 2137609,
+      "fertility": 2.1249,
+      "bajty_na_token": 3.5688
+    },
+    "tokeny_uzyte_w_tescie": 7915,
+    "tokeny_uzyte_mniej_niz_10_razy": 202,
+    "dlugosci_tokenow_bajty": {
+      "2": 668,
+      "3": 1530,
+      "4": 1786,
+      "5": 1326,
+      "6": 903,
+      "9": 225,
+      "7": 623,
+      "8": 386,
+      "10": 145,
+      "12": 39,
+      "11": 67,
+      "14": 11,
+      "13": 26,
+      "15": 6,
+      "17": 2,
+      "16": 1
+    }
+  },
+  "16000": {
+    "calosc": {
+      "tokeny": 1451291,
+      "slowa": 780914,
+      "bajty": 5705774,
+      "fertility": 1.8585,
+      "bajty_na_token": 3.9315
+    },
+    "szlwiki": {
+      "tokeny": 202763,
+      "slowa": 98442,
+      "bajty": 740332,
+      "fertility": 2.0597,
+      "bajty_na_token": 3.6512
+    },
+    "wachtyrz_szl": {
+      "tokeny": 176889,
+      "slowa": 97977,
+      "bajty": 667358,
+      "fertility": 1.8054,
+      "bajty_na_token": 3.7728
+    },
+    "fineweb_szl": {
+      "tokeny": 283302,
+      "slowa": 156490,
+      "bajty": 1018739,
+      "fertility": 1.8104,
+      "bajty_na_token": 3.5959
+    },
+    "plwiki_slask": {
+      "tokeny": 263436,
+      "slowa": 146127,
+      "bajty": 1141736,
+      "fertility": 1.8028,
+      "bajty_na_token": 4.334
+    },
+    "wachtyrz_pl": {
+      "tokeny": 524901,
+      "slowa": 281878,
+      "bajty": 2137609,
+      "fertility": 1.8622,
+      "bajty_na_token": 4.0724
+    },
+    "tokeny_uzyte_w_tescie": 15828,
+    "tokeny_uzyte_mniej_niz_10_razy": 1051,
+    "dlugosci_tokenow_bajty": {
+      "2": 915,
+      "3": 2263,
+      "4": 3135,
+      "5": 2818,
+      "6": 2119,
+      "9": 748,
+      "7": 1554,
+      "8": 1091,
+      "10": 462,
+      "12": 156,
+      "11": 272,
+      "14": 42,
+      "13": 92,
+      "15": 34,
+      "17": 16,
+      "16": 15,
+      "18": 4,
+      "20": 3,
+      "22": 1,
+      "24": 1,
+      "19": 3
+    }
+  },
+  "32000": {
+    "calosc": {
+      "tokeny": 1294274,
+      "slowa": 780914,
+      "bajty": 5705774,
+      "fertility": 1.6574,
+      "bajty_na_token": 4.4085
+    },
+    "szlwiki": {
+      "tokeny": 181783,
+      "slowa": 98442,
+      "bajty": 740332,
+      "fertility": 1.8466,
+      "bajty_na_token": 4.0726
+    },
+    "wachtyrz_szl": {
+      "tokeny": 159514,
+      "slowa": 97977,
+      "bajty": 667358,
+      "fertility": 1.6281,
+      "bajty_na_token": 4.1837
+    },
+    "fineweb_szl": {
+      "tokeny": 257167,
+      "slowa": 156490,
+      "bajty": 1018739,
+      "fertility": 1.6433,
+      "bajty_na_token": 3.9614
+    },
+    "plwiki_slask": {
+      "tokeny": 231797,
+      "slowa": 146127,
+      "bajty": 1141736,
+      "fertility": 1.5863,
+      "bajty_na_token": 4.9256
+    },
+    "wachtyrz_pl": {
+      "tokeny": 464013,
+      "slowa": 281878,
+      "bajty": 2137609,
+      "fertility": 1.6461,
+      "bajty_na_token": 4.6068
+    },
+    "tokeny_uzyte_w_tescie": 31359,
+    "tokeny_uzyte_mniej_niz_10_razy": 11242,
+    "dlugosci_tokenow_bajty": {
+      "2": 1174,
+      "3": 3247,
+      "4": 5275,
+      "5": 5376,
+      "6": 4585,
+      "9": 1986,
+      "7": 3698,
+      "8": 2790,
+      "10": 1375,
+      "12": 539,
+      "11": 952,
+      "14": 174,
+      "13": 300,
+      "15": 110,
+      "17": 44,
+      "16": 66,
+      "18": 15,
+      "20": 9,
+      "22": 3,
+      "24": 2,
+      "19": 12,
+      "26": 2,
+      "23": 2,
+      "31": 1,
+      "21": 2,
+      "32": 1,
+      "25": 2,
+      "48": 1,
+      "29": 1
+    }
+  }
+}

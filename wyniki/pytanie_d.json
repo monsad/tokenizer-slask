@@ -1,0 +1,27 @@
+{
+  "GPT-4 (cl100k)": {
+    "Ślabikŏrz (oryginał)": 3.2031,
+    "po polsku (ō→ó, ŏ/ô→o)": 2.9993,
+    "bez znaków diakrytycznych": 2.806
+  },
+  "GPT-4o (o200k)": {
+    "Ślabikŏrz (oryginał)": 2.9476,
+    "po polsku (ō→ó, ŏ/ô→o)": 2.7543,
+    "bez znaków diakrytycznych": 2.606
+  },
+  "Bielik v3 (APT4 32k)": {
+    "Ślabikŏrz (oryginał)": 3.4224,
+    "po polsku (ō→ó, ŏ/ô→o)": 3.1186,
+    "bez znaków diakrytycznych": 2.9138
+  },
+  "nasz 16k": {
+    "Ślabikŏrz (oryginał)": 2.0597,
+    "po polsku (ō→ó, ŏ/ô→o)": 2.1666,
+    "bez znaków diakrytycznych": 2.2181
+  },
+  "nasz 32k": {
+    "Ślabikŏrz (oryginał)": 1.8466,
+    "po polsku (ō→ó, ŏ/ô→o)": 1.9241,
+    "bez znaków diakrytycznych": 2.0131
+  }
+}
