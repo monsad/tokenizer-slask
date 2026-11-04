@@ -1,5 +1,5 @@
 pytest==8.3.4
-pyarrow==18.1.0
+pyarrow==23.0.1
 matplotlib==3.9.4
 tiktoken==0.8.0
 tokenizers==0.21.0
