@@ -8,6 +8,11 @@ def test_szl_score_rozroznia():
     assert szl_score(SZL) > 0.1 > szl_score(PL)
 
 
+def test_gwara_bez_slabikorza_tez_slaska():
+    cieszynska = "Zwrocomy sie dlo Wos z prośbom wsparcia, momy koszty, mocka opłat do tego, żodnego grosza."
+    assert szl_score(cieszynska) >= 0.02
+
+
 def test_nfc():
     rozlozone = "ō"                       # o + makron łączący
     assert nfc(rozlozone) == "ō"

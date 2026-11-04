@@ -13,7 +13,12 @@ import unicodedata
 from pathlib import Path
 
 RAW, OUT = Path("data/raw"), Path("data/corpus")
-SZL_MARKERY = re.compile(r"[ōŏô]|\b(niy|żech|ôd|kaj|tyż|zaś|ino|kery|kerŏ|bōł|bōła|bydzie|gŏdać)\b")
+# Znaki Ślabikŏrza ORAZ słowa gwarowe w zapisie polskimi literami (gwara cieszyńska, zapis fonetyczny).
+# Pierwsza wersja miała tylko znaki ō/ŏ/ô i kilka słów — odrzucała gŏdkę spoza Ślabikŏrza (opisane w raporcie).
+SZL_MARKERY = re.compile(
+    r"[ōŏô]|\b(niy|żech|żeś|jakech|ôd|kaj|kajś|tyż|tysz|zaś|ino|yno|kery|kerŏ|kiery|kierej|kiere|kerej|kere"
+    r"|bōł|bōła|bydzie|gŏdać|godać|godo|uż|isto|fest|wiela|kiej|kej|zawdy|momy|mocka|fto|ftedy|wos|nom"
+    r"|żodn\w*|bajtel\w*|dziołch\w*|synek|terozki|łoroz)\b")
 PROG_SZL = 0.02          # dobrany na próbce: polskie teksty mają ~0, śląskie zwykle > 0.05
 KROTKIE_HASLO = 300      # znaków; krótsze hasła szlwiki to głównie szablony geograficzne
 ZOSTAW_KROTKICH = 0.25   # tyle krótkich haseł zostawiamy (losowo), reszta to powtarzalny szablon
