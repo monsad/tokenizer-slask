@@ -2,18 +2,21 @@
 
 Praca domowa do lekcji 02 („Tokenizacja i BPE od zera”), kurs 01 Fabryka. Kod: to repo, `python run_all.py`.
 
-## Kilka słów wyjaśnienia
+## Zanim zaczniesz: o czym jest ta praca
 
-- **Token**: kawałek tekstu, na którym pracuje model: całe słowo, jego część albo pojedynczy znak.
-  Więcej tokenów na ten sam tekst = drożej i mniej tekstu mieści się w modelu naraz.
-- **Tokenizer**: program, który tnie tekst na tokeny. **Słownik** to lista wszystkich tokenów, które zna.
-- **BPE**: sposób budowania słownika. Startuje od 256 bajtów i w kółko skleja parę, która najczęściej
-  stoi obok siebie, np. „g”+„ŏ” → „gŏ”, potem „gŏ”+„d” → „gŏd”. Każde sklejenie (merge) to jeden nowy token.
-- **Tokeny na słowo** (fertility): ile tokenów średnio przypada na jedno słowo. Im mniej, tym lepiej.
-- **Zbiór testowy**: 10% tekstów odłożonych przed treningiem. Wszystkie pomiary są na nim, bo mierzenie
-  na tekście, na którym tokenizer się uczył, zawyża wyniki.
-- **Gŏdka** to język śląski. **Ślabikŏrz** to najpopularniejsza pisownia, z literami ō, ŏ, ô.
-  W UTF-8 każda z nich (tak jak ą czy ż) zajmuje 2 bajty, które BPE musi najpierw skleić.
+- **Gŏdka** to język śląski. Nie ma jednej pisowni. Najpopularniejszy jest **Ślabikŏrz**
+  z literami ō, ŏ, ô (np. *gŏdać*, *ôd*, *bōło*). W sieci pisze się też „po polsku” (*godać*, *od*)
+  albo całkiem bez ogonków. Gwara cieszyńska i zapis fonetyczny wyglądają jeszcze inaczej.
+- **Litery ō, ŏ, ô zajmują w komputerze po 2 bajty**, tak jak ą czy ż. Mój tokenizer startuje od bajtów,
+  więc zanim ō stanie się jednym tokenem, BPE musi skleić te 2 bajty. W pytaniu B sprawdzam, kiedy to się dzieje.
+- **Numer sklejenia** (merge): BPE dokłada tokeny po kolei, od najczęstszej pary. Numer mówi, którym
+  z kolei sklejeniem powstał dany token. Mały numer = token potrzebny bardzo wcześnie.
+- **Jeden trening, pięć słowników:** słownik 4k to dokładnie pierwsze sklejenia ze słownika 32k.
+  Dlatego trenuję raz, a rozmiary porównuję, ucinając listę sklejeń.
+- **Tokeny na słowo** (fertility) to moja główna miara: ile kawałków średnio przypada na jedno słowo.
+  Liczę ją wyłącznie na **10% tekstów odłożonych przed treningiem**, których tokenizer nigdy nie widział.
+- **Bielik v3 (APT4)** to jedyny w porównaniu tokenizer uczony na polskim. Na nim widać,
+  czy „polski” wystarczy dla gŏdki.
 
 ## 1. Korpus
 

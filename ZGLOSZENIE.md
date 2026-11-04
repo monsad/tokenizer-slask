@@ -1,11 +1,9 @@
 Praca domowa: własny tokenizer BPE na gŏdce, czyli ile kosztuje śląski.
 
-Najpierw kilka słów wyjaśnienia:
-- token to kawałek tekstu, na którym pracuje model: całe słowo, część słowa albo znak. Im więcej tokenów, tym drożej i tym mniej tekstu wchodzi do modelu naraz.
-- tokenizer tnie tekst na tokeny, a jego słownik to lista wszystkich tokenów, które zna.
-- BPE buduje słownik od zera: zaczyna od pojedynczych bajtów i w kółko skleja parę, która najczęściej stoi obok siebie, np. „g”+„ŏ” → „gŏ”, potem „gŏ”+„d” → „gŏd”.
-- tokeny na słowo (fertility) mówią, na ile kawałków średnio jest cięte jedno słowo. Mierzyłam to tylko na tekstach, których tokenizer nie widział przy nauce.
-- gŏdka to język śląski; w najpopularniejszej pisowni (Ślabikŏrz) ma litery ō, ŏ, ô, które w komputerze zajmują po 2 bajty, tak jak ą czy ż.
+Dlaczego śląski:
+- gŏdka nie ma jednej pisowni: Ślabikŏrz (gŏdać, ôd, bōło), zapis „po polsku” (godać, od), bez ogonków, do tego gwara cieszyńska. Dla tokenizera to cztery różne teksty o tym samym.
+- litery ō, ŏ, ô zajmują po 2 bajty, tak jak ą czy ż. BPE startuje od bajtów, więc musi je najpierw skleić. Chciałam zobaczyć, czy traktuje je gorzej niż polskie.
+- duże modele (GPT-4, Bielik) widziały gŏdki bardzo mało. Mierzyłam, ile ich to kosztuje w tokenach na słowo, zawsze na tekstach odłożonych przed treningiem.
 
 Co zrobiłam (58 MB tekstu, BPE napisany od zera w Pythonie, wszystko na moim komputerze):
 - korpus „Górny Śląsk: gŏdka i kultura”: 25 MB po śląsku (śląska Wikipedia, Wachtyrz, FineWeb-2) i 33 MB po polsku o Śląsku. Ciekawostka z czyszczenia: 92% haseł śląskiej Wikipedii to krótkie szablony o wsiach, a mój pierwszy filtr „czy to śląski” odrzucał gwarę cieszyńską, bo szukał tylko liter ō/ŏ/ô.
