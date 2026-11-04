@@ -15,6 +15,6 @@ Co mnie zaskoczyło:
 - tokenizer uczony tylko na śląskiej Wikipedii jest o 17–20% gorszy na gŏdce z sieci. Wikipedia to inny śląski niż ten, którym ludzie piszą.
 - przy 32k ponad 1/3 tokenów pojawia się w teście mniej niż 10 razy. Dla 58 MB tekstu rekomenduję 16k.
 
-Raport z wykresami i kodem: [link do repo na GitHubie]
+Raport z wykresami i kodem: https://github.com/monsad/tokenizer-slask (raport: RAPORT.md)
 
 Chętnie przyjmę uwagi. Najbardziej ciekawi mnie, czy dobrze rozumiem, że przy języku z kilkoma pisowniami lepiej uczyć tokenizer na wszystkich wariantach, niż ujednolicać tekst do jednej pisowni przed treningiem?
