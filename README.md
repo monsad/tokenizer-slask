@@ -12,7 +12,7 @@ python run_all.py                      # korpus -> trening -> metryki -> pytania
 pytest -q                              # testy
 ```
 
-`run_all.py` wymaga danych w `data/raw` (niżej). Pełny przebieg trwa kilkadziesiąt minut, najdłużej trening.
+`run_all.py` wymaga danych w `data/raw` (niżej). Pełny przebieg trwa ok. 3 minuty na laptopie (trening 32k: ok. 2 min).
 
 ## Dane
 
@@ -25,7 +25,7 @@ curl -L -o data/raw/fineweb2/test.parquet  https://huggingface.co/datasets/Huggi
 python scripts/pobierz_plwiki_slask.py data/raw/plwiki/plwiki_slask.jsonl   # lista tytułów z kategorii (+ tekst przez API, wolno)
 # szybciej: tekst ze zrzutu HF (1,8 GB, wersja z 1.11.2023)
 for i in 0 1 2 3 4 5; do curl -L -o data/raw/plwiki_hf/train-0000$i.parquet https://huggingface.co/datasets/wikimedia/wikipedia/resolve/main/20231101.pl/train-0000$i-of-00006.parquet; done
-python scripts/plwiki_z_hf.py data/raw/plwiki_hf data/raw/plwiki/plwiki_slask.tytuly.txt data/raw/plwiki/plwiki_slask.jsonl
+python scripts/plwiki_z_hf.py data/raw/plwiki_hf dane/plwiki_slask_tytuly.txt data/raw/plwiki/plwiki_slask.jsonl
 # data/raw/wachtyrz/wachtyrz.txt — artykuły z wachtyrz.eu (publiczne API WordPressa), jeden akapit na linię
 ```
 
